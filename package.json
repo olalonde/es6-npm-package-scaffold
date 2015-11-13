@@ -1,6 +1,5 @@
 {
   "name": "es6-npm-package-scaffold",
-  "description": "Opinionated npm package scaffold (supports es6)",
   "main": "./lib",
   "scripts": {
     "lint": "eslint ./src ./test",

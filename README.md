@@ -5,11 +5,13 @@ Opinionated npm package scaffold / template.
 ## usage
 
 ```bash
-git clone ...
-mv es6-npm-package-scaffold your-project-name
-cd your-project-name
-npm init # edit project name, author, etc.
-echo "# your-project-name" > README.md
+PROJECT_NAME=your-project-name
+git clone https://github.com/olalonde/es6-npm-package-scaffold.git $PROJECT_NAME && \
+  cd $PROJECT_NAME && \
+  rm -rf .git && \
+  echo "# ${PROJECT_NAME}" > README.md && \
+  npm init \ # edit project name, author, etc.
+  npm install
 ```
 
 ### devDependencies
@@ -35,9 +37,11 @@ on npm
 
 Recommended:
 
-`npm install -g commitizen` and `git cz` to help with angular style
+`npm install -g cz-cli` and `git cz` to help with angular style
 commits.
 
 ## todo
 
 package for yeoman
+
+
