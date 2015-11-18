@@ -9,9 +9,12 @@
     "test": "babel-node test/*.js",
     "preversion": "npm test",
     "version:auto": "npm version $(conventional-recommended-bump --preset=angular)",
-    "postversion": "git push --tags && git push",
+    "postversion": "npm run changelog && git push && git push --tags",
     "release": "npm run version:auto && npm publish",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "changelog:generate": "conventional-changelog -p angular -i CHANGELOG.md -w",
+    "changelog:commit": "git add CHANGELOG.md && git commit -m \"chore(changelog): auto generate changelog\"",
+    "changelog": "npm run changelog:generate && npm run changelog:commit"
   },
   "keywords": [],
   "author": "Olivier Lalonde <olalonde@gmail.com>",
