@@ -1,15 +1,12 @@
 #!/bin/bash
 
-PROJECT_NAME=
-echo "Type the project name directory (default: newproject):"
-read -r PROJECT_NAME
-PROJECT_NAME=${PROJECT_NAME:-"newproject"}
+PROJECT=${PROJECT:-"newproject"}
 
-git clone https://github.com/olalonde/es6-npm-package-scaffold.git "$PROJECT_NAME" && \
-  cd "$PROJECT_NAME" && \
+git clone https://github.com/olalonde/es6-npm-package-scaffold.git "$PROJECT" && \
+  cd "$PROJECT" && \
   rm -rf .git && \
   git init && \
   rm CHANGELOG.md && \
-  echo "# ${PROJECT_NAME}" > README.md && \
+  echo "# ${PROJECT}" > README.md && \
   npm init && \
   npm install
