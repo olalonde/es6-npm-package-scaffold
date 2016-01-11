@@ -2,6 +2,5 @@ import test from 'blue-tape';
 
 test('something', (t) => {
   t.ok(true);
-  return new Promise((resolve) => resolve());
+  return Promise.resolve();
 });
-
