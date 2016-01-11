@@ -1,16 +1,55 @@
+<a name="0.2.1"></a>
+## 0.2.1 (2015-11-18)
+
+
+### chore
+
+* chore(changelog): auto generate changelog 256ed52
+* chore(changelog): auto generate changelog 9f29608
+
+### fix
+
+* fix(changelog): run changelog before bumping version 8f72c4d
+
+* 0.2.1 9c47459
+
+
+
 <a name="0.2.0"></a>
-# [0.2.0](//compare/v0.2.0...v0.2.0) (2015-11-18)
+# 0.2.0 (2015-11-18)
 
 
-### Bug Fixes
+### feat
 
-* **changelog:** run changelog before bumping version 8f72c4d
+* feat(changelog): automatically generate changelog on npm version 1047218
+
+### fix
+
+* fix(changelog): confused about changelog 7045d4f
+
+* 0.2.0 07b6cc8
 
 
 
-<a name="0.2.0"></a>
-# [0.2.0](//compare/v0.2.0...v0.2.0) (2015-11-18)
+<a name="0.1.0"></a>
+# 0.1.0 (2015-11-18)
 
+
+### feat
+
+* feat(changelog): Add changelog devDependency 20c3946
+
+* 0.1.0 38dbd5a
+* improved doc 08c23aa
+
+
+
+<a name="0.0.1"></a>
+## 0.0.1 (2015-11-13)
+
+
+* 0.0.1 a54feff
+* initial commit b6e6e9f
 
 
 
