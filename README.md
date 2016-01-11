@@ -5,7 +5,9 @@ Opinionated npm package scaffold / template.
 ## usage
 
 ```bash
-PROJECT=newproject curl -sSL https://raw.githubusercontent.com/olalonde/es6-npm-package-scaffold/master/init.sh | sh
+PROJECT=newproject
+git clone https://github.com/olalonde/es6-npm-package-scaffold.git "$PROJECT"
+cd $PROJECT && ./init.sh
 ```
 
 ### devDependencies
