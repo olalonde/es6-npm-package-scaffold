@@ -5,13 +5,7 @@ Opinionated npm package scaffold / template.
 ## usage
 
 ```bash
-PROJECT_NAME=your-project-name
-git clone https://github.com/olalonde/es6-npm-package-scaffold.git $PROJECT_NAME && \
-  cd $PROJECT_NAME && \
-  rm -rf .git && \
-  echo "# ${PROJECT_NAME}" > README.md && \
-  npm init \ # edit project name, author, etc.
-  npm install
+curl -sSL https://github.com/olalonde/es6-npm-package-scaffold/blob/master/init.sh | sh
 ```
 
 ### devDependencies
