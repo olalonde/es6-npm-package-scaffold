@@ -33,3 +33,4 @@ lib/
 # Environment variables ignored by default to prevent
 # accidentally leaking private keys.
 .env
+.envrc
