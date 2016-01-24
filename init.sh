@@ -4,7 +4,7 @@ PROJECT=$(basename "${PWD}")
 rm -rf .git && \
 git init && \
 rm CHANGELOG.md
-cat << EOF > test.md
+cat << EOF > README.md
 # ${PROJECT}
 
 ## Install
