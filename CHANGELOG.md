@@ -1,3 +1,17 @@
+<a name="0.3.0"></a>
+# [0.3.0](//compare/v0.3.0...v0.3.0) (2016-01-24)
+
+
+### Bug Fixes
+
+* **init:** fix init 64b2a58
+* **init:** fix init 821270b
+* **init:** pass project name as argument d7a8acc
+* **misc:** small fixes 3606ca9
+* **readme:** fix init URL 0131c2a
+
+
+
 <a name="0.2.1"></a>
 ## [0.2.1](//compare/v0.2.1...v0.2.1) (2016-01-11)
 
