@@ -1,8 +1,23 @@
 #!/bin/bash
-PROJECT="basename $(pwd)"
+PWD=$(pwd)
+PROJECT=$(basename "${PWD}")
 rm -rf .git && \
 git init && \
-rm CHANGELOG.md && \
-echo "# ${PROJECT}\n\n## Install\n\n## Usage" > README.md && \
+rm CHANGELOG.md
+cat << EOF > test.md
+# ${PROJECT}
+
+## Install
+
+\`\`\`
+npm install --save ${PROJECT}
+\`\`\`
+
+## Usage
+
+\`\`\`bash
+TODO
+\`\`\`
+EOF
 npm install && \
 rm init.sh
